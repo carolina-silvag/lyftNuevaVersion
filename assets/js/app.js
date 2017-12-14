@@ -32,7 +32,7 @@ $(document).ready(function(){
     }
 
     function registro1() {
-    	$('.fondoPrincipal').css({'background-image':'none'});
+    	$('section').removeClass('fondoPrincipal');
     	$('body').css({'background-image':'none'});
     	$('.pantallaPrincipal').hide();
     	$('.numberRegistro').show();
@@ -40,7 +40,7 @@ $(document).ready(function(){
     }
 
     function volverPrincipal() {
-    	$('#fondo').addClass('fondoPrincipal');
+    	$('section').addClass('fondoPrincipal');
     	$('.numberRegistro').hide();
     	$('.pantallaPrincipal').show();
 
