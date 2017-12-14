@@ -1,0 +1,85 @@
+body {
+  background: linear-gradient(#600164, #e20a89);
+  width: 100%;
+  height: 100vh; 
+}
+.logo1, .logo2 {
+	width: 40%;
+}
+
+.title-center {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.fondoPrincipal {
+	background-image: url(../images/fondoPrincipal.jpg);
+	background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.subTitle-center {
+	background-color: transparent;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo3 {
+	width: 60%;
+	background-color: transparent;
+}
+
+.btnIn, .btnUp {
+	font-size: 200%;
+	margin-bottom: 10%;
+	background-color: transparent; 
+	color: #fff;
+	padding: 2% 4% 2% 4%; 
+}
+
+.glyphicon1 {
+	color: #e20a89
+}
+.btnAtras {
+	display: inline-block;
+	margin-top: 5%;
+	border-radius: 50%;
+}
+
+
+.btnNext {
+	background-color: #e20a89; 
+	color: #fff,
+	margin-top: 10%;
+	padding: 5% 0 5% 0; 
+	width: 90%;
+}
+
+.btnNextVerificar {
+	background-color: #e20a89; 
+	color: #fff,
+	margin-top: 50%;
+	padding: 5% 0 5% 0; 
+	width: 90%;
+}
+.numberPhone {
+	/*width: 70%;*/
+	padding: 5% 0 5% 0; 
+	margin-top: 10%;
+}
+
+.numberValidar {
+	border:none;
+	text-decoration: none;
+}
+
+
+.btnResend {
+	margin-top: 10%;
+	padding: 5%;
+}
