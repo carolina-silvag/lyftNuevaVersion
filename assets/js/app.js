@@ -47,7 +47,7 @@ $(document).ready(function(){
     }
 
     function registro2() {
-    	$('.fondoPrincipal').css({'background-image':'none'});
+    	$('section').removeClass('fondoPrincipal');
     	$('body').css({'background-image':'none'});
     	$('.numberRegistro').hide();
     	$('.numberVerificar').show();

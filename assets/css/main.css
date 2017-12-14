@@ -63,7 +63,6 @@ body {
 .btnNextVerificar {
 	background-color: #e20a89; 
 	color: #fff,
-	margin-top: 50%;
 	padding: 5% 0 5% 0; 
 	width: 90%;
 }
@@ -74,12 +73,13 @@ body {
 }
 
 .numberValidar {
+	width: 20%;
 	border:none;
 	text-decoration: none;
 }
 
 
 .btnResend {
-	margin-top: 10%;
+	margin: 5% 0 50% 0; 
 	padding: 5%;
 }
